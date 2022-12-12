@@ -1,1 +1,60 @@
-# dspt-useful-imports
+# List of Useful ML Imports:
+- Basic Python
+  - `import time`
+  - `from tqdm.notebook import tqdm`
+  - `import datetime`
+  - `import random`
+  - `import math`
+  - `import sys`
+  - `import os`
+  - `import shutil`
+  - `import json`
+  - `import requests`
+  - `import csv`
+- Data Manipulation
+  - `import numpy as np`
+  - `import pandas as pd`
+- Visualization
+  - `from matplotlib import pyplot as plt`
+  - `import seaborn as sns`
+  - `import folium`
+  - `from folium.plugins import HeatMap`
+- Scikit-Learn
+  - `from sklearn.model_selection import train_test_split`
+  - `from sklearn.preprocessing import StandardScaler`
+  - Modeling
+    - Regression
+      - `from sklearn.linear_model import LinearRegression`
+      - `from sklearn.tree import DecisionTreeRegressor`
+      - `from sklearn.ensemble import RandomForestRegressor`
+      - `from sklearn.linear_model import Lasso`
+      - `from sklearn.linear_model import Ridge`
+      - `from sklearn.linear_model import ElasticNet`
+      - `from sklearn.svm import LinearSVR`
+    - Classification
+      - `from sklearn.linear_model import LogisticRegression`
+      - `from sklearn.tree import DecisionTreeClassifier`
+      - `from sklearn.ensemble import RandomForestClassifier`
+      - `from sklearn.svm import LinearSVC`
+    - Clustering
+      - `from scipy.cluster import hierarchy`
+      - `from scipy.cluster.hierarchy import dendrogram`
+      - `from sklearn.cluster import AgglomerativeClustering`
+      - `from sklearn.cluster import KMeans`
+      - `from sklearn.cluster import DBSCAN`
+    - Dimmensionality Reduction
+      - `from sklearn.decomposition import PCA`
+    - Neural Networks
+      - `import tensorflow as tf`
+      - `from tensorflow import keras`
+      - `from tensorflow.keras import layers`
+    - Others
+      - `from sklearn import tree`
+  - Regression Metrics
+    - `from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score`
+  - (Binary) Classification Metrics
+    - `from sklearn.metrics import accuracy_score, recall_score, precision_score, f1_score`
+  - Cross-Validation
+    - `from sklearn.model_selection import KFold`
+    - `from sklearn.model_selection import cross_val_score`
+
