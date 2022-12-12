@@ -1,5 +1,5 @@
 # List of Useful ML Imports:
-- Basic Python
+- ## Basic Python
   - `import time`
   - `from tqdm.notebook import tqdm`
   - `import datetime`
@@ -11,15 +11,15 @@
   - `import json`
   - `import requests`
   - `import csv`
-- Data Manipulation
+- ## Data Manipulation
   - `import numpy as np`
   - `import pandas as pd`
-- Visualization
+- ## Visualization
   - `from matplotlib import pyplot as plt`
   - `import seaborn as sns`
   - `import folium`
   - `from folium.plugins import HeatMap`
-- Scikit-Learn
+- ## Scikit-Learn
   - `from sklearn.model_selection import train_test_split`
   - `from sklearn.preprocessing import StandardScaler`
   - Modeling
@@ -44,10 +44,6 @@
       - `from sklearn.cluster import DBSCAN`
     - Dimmensionality Reduction
       - `from sklearn.decomposition import PCA`
-    - Neural Networks
-      - `import tensorflow as tf`
-      - `from tensorflow import keras`
-      - `from tensorflow.keras import layers`
     - Others
       - `from sklearn import tree`
   - Regression Metrics
@@ -57,4 +53,8 @@
   - Cross-Validation
     - `from sklearn.model_selection import KFold`
     - `from sklearn.model_selection import cross_val_score`
+- ## Neural Networks
+  - `import tensorflow as tf`
+  - `from tensorflow import keras`
+  - `from tensorflow.keras import layers`
 
